@@ -90,6 +90,16 @@ a:focus {
   display: flex;
   align-items: center;
 }
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 hr {
   border: 0;
   clear: both;
@@ -229,6 +239,7 @@ hr {
   border-radius: 4px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  padding-bottom: 30px;
 }
 .team-member-name {
   font-family: "Roboto", sans-serif;
@@ -445,4 +456,31 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-join-ruler {
+  margin-top: 12px;
+}
+
+.footer-join-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  color: var(--white);
+}
+.footer-flex {
+  display: flex;
+}
+.footer-flex-list {
+  margin-right: 70px;
+}
+.social-icons {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
